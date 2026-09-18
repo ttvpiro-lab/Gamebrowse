@@ -1,0 +1,87 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameBrowse</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #111827;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #1f2937;
+      padding: 14px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      border-bottom: 1px solid #374151;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .search {
+      flex: 1;
+      display: flex;
+      gap: 8px;
+    }
+
+    .search input {
+      width: 100%;
+      padding: 12px 15px;
+      border: none;
+      border-radius: 10px;
+      background: #374151;
+      color: white;
+      outline: none;
+      font-size: 15px;
+    }
+
+    .search button {
+      border: none;
+      border-radius: 10px;
+      padding: 0 18px;
+      cursor: pointer;
+      background: #6366f1;
+      color: white;
+      font-weight: bold;
+    }
+
+    nav {
+      background: #1f2937;
+      padding: 10px 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    nav button {
+      background: transparent;
+      color: #d1d5db;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    nav button:hover,
+    nav button.active {
+      background: #374151;
+      color: white;
+    }
+```
